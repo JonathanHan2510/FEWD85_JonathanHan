@@ -1,0 +1,20 @@
+header{
+	color:red;
+}
+
+section{
+	font-weight: bold;
+}
+
+.section-two{
+	font-weight: italic;
+}
+
+.section-three{
+	font-family: arial;
+	}
+
+footer{
+	font-size: 16px;
+}
+			

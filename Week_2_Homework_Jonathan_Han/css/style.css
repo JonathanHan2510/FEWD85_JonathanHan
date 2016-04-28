@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Lato, Helvetica, Arial, sans-serif;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
      
 }
 
@@ -66,7 +66,7 @@ bigger (font-sizes, ect.)
 
 /* Center the container */
 #container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@ header{
 
 .center-text {text-align: center;}
 
-button { display:block; width: 20%; margin: 10px auto;}
+button { display:block; width: 12%; margin: 10px auto;}
 
 .text-container{
     width: 80%;
@@ -130,7 +130,7 @@ h1{
 }
 
 h2{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
 }
 

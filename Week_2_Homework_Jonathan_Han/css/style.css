@@ -86,25 +86,21 @@ button { display:block; width: 12%; margin: 10px auto;}
 }
 
 .article-1{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 400px;
   text-align: center;
   color: white;
   padding-top: 120px;
 }
 
-#section-2{
+#section2{
   height: 400px;
   background-color: #f0efef;
 }
 
 .article-2{
   padding-top: 60px;
-}
-
-#section-3 {
-  background: url(../images/testimonial_bg.jpg) no-repeat center top;
-  background-size: cover;
-  height: 400px;
-  text-align: center;
 }
 
 #yellow {
@@ -172,7 +168,7 @@ span {
   and the bold quote tag. Margin-top isn't working, why is that? */
 }
 
-.getitnow{
+button{
   padding: 10px 20px 10px 20px;
   border-radius: 7px;
   font-size: 15px;
@@ -183,6 +179,11 @@ span {
   color: #033048;
 }
 
+
+.bold-yellow-big {
+
+}
+
 /*AM– This is me attempting to get rid of the
  blue highlight around the button. Also there 
  are 2 buttons on this page, but only the top one
@@ -190,6 +191,7 @@ span {
 
 button:hover{
   background-color: white;
+  transform: translateY(-50%);
 }
 
 button:active {
@@ -218,6 +220,8 @@ border: none;
   top: 50%;
   transform: translateY(-50%);
 }
+#section2 button {}
+#section2 span {}
 
 #footer-content > h2 {
   font-weight: bold;
